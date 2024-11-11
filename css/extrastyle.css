@@ -1,0 +1,41 @@
+.phonix-collective-left{
+    /* border: 2px solid red; */
+    position: fixed;
+    top: 310px;
+    left: -178px;
+    z-index: 999;
+    transform: rotate(-90deg);
+
+    
+}
+.phonix-collective-left ul{
+    display: flex;
+    gap: 20px;
+
+}
+.phonix-collective-left ul li a{
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.phonix-collective-right{
+    position: fixed;
+    top: 310px;
+    right: 10px;
+    z-index: 999;
+    padding: 10px;
+}
+.phonix-collective-right ul{
+    display: flex;
+}
+.phonix-collective-right ul li{
+    margin: 10px;
+    border: 2px solid #fff;
+}
+.phonix-collective-right img{
+    border: 1px solid #fff;
+    padding: 6px;
+    border-radius: 20px;
+    width: 32px;
+
+}
